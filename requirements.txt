@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+requests
+sqlalchemy
+apscheduler
+
+
+
+
+
+
+
+
