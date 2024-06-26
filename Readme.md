@@ -1,3 +1,5 @@
+# APP WEARTHER FORECAST
+![alt text](image.png)
 # Hướng dẫn sử dụng weather_forecast_app_use_FastApiAndReactJS
 
 Hãy đảm bảo bạn đã cài đặt Python 3 và có các trình soạn thảo code như VSCode hoặc PyCharm để thuận tiện cho việc viết mã.
