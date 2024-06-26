@@ -56,6 +56,7 @@ class ForecastDay(BaseModel):
     condition: str
 
 class WeatherResponse(BaseModel):
+    city: str#
     current_time: str#
     current_temperature: float
     current_wind_speed: float
@@ -113,6 +114,7 @@ def get_weather(request: WeatherRequest, db: Session = Depends(get_db)):
         ))
 
     return WeatherResponse(
+        city=city,
         current_time=data['current']["last_updated"],#
         current_temperature=data['current']['temp_c'],
         current_wind_speed=data['current']['wind_kph'],

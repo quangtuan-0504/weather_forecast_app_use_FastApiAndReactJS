@@ -58,6 +58,7 @@ function WeatherForecastApp() {
             {weather && (
                 <div className="weather-info">
                     <div className="current-weather">
+                        <p>City: {weather.city}</p>
                         <p>Current Date: {weather.current_time}</p>
                         <p>Current Temperature: {weather.current_temperature}°C</p>
                         <p>Current Wind Speed: {weather.current_wind_speed} kph</p>
