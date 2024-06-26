@@ -62,7 +62,17 @@ Hãy đảm bảo bạn đã cài đặt Python 3 và có các trình soạn th�
 - Trong file `package.json` hãy thêm `"proxy": "http://localhost:8000"`.
 
 Cấu trúc thư mục có thể sẽ như sau:
-
+```weather_forecast_app_use_FastApiAndReactJS/
+├── backend_weather/
+│ ├── backend.py
+├── ...
+├── frontend_weather/
+│ ├── public/
+│ ├── src/
+│ ├── package.json
+│ └── ...
+├── venv/
+└── requirements.txt```
 
 ### B5: Chạy ứng dụng
 
